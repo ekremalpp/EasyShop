@@ -51,13 +51,17 @@ public class CategoriesController
 
     // the url to return all products in category 1 would look like this
     // https://localhost:8080/categories/1/products
-    @GetMapping("{categoryId}/products")
-    public List<Product> getProductsById(@PathVariable int categoryId)
+    //@GetMapping("{categoryId}/products")
+    @RequestMapping(path="/categories/{categoryId}/products", method = RequestMethod.GET)
+    public List<Product> getProductsById(@PathVariable(name="categoryId") int categoryId, HttpServletResponse response)
     {
-        // get a list of product by categoryId
-        return null;
-    }
+        List<Product> products= productDao.listByCategoryId(categoryId);
 
+        if (products == null){
+            response.setStatus(HttpServletResponse.SC_NOT_FOUND);
+        }
+        return products;
+    }
     // add annotation to call this method for a POST action
     // add annotation to ensure that only an ADMIN can call this function
     public Category addCategory(@RequestBody Category category)
