@@ -58,7 +58,7 @@ Follow these steps to get your application running within IntelliJ IDEA:
 
 Outline potential future enhancements or functionalities you might consider adding:
 
-- Additional feature to be developed.
+- Future improvements include adding payment integration, order tracking, advanced search filters, and inventory management. Additionally, mobile support, security upgrades, and performance optimizations are planned.
 
 
 
