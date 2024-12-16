@@ -10,8 +10,16 @@ and ensuring smooth backend operations to support the front-end functionality an
 
 
 ## User Stories
-
-
+- As an Admin, I want to retrieve all categories so that I can view and manage the full list of available categories in the system.
+- As an Admin, I want to fetch the details of a specific category using its ID so that I can review its attributes and make changes if necessary.
+- As an Admin, I want to add a new category to the system so that I can expand the available categories and better organize the products.
+- As an Admin, I want to update an existing category so that I can modify its name, description, or any other details as needed.
+- As an Admin, I want to delete a category from the system so that I can remove any irrelevant or outdated categories.
+- As a User, I want to search for products based on category, price range, and color so that I can find products that match my preferences.
+- As a User, I want to view the detailed information of a specific product so that I can learn more about its features and make informed purchase decisions.
+- As an Admin, I want to add a new product to the inventory so that I can expand the product catalog and offer more choices to users.
+- As an Admin, I want to update an existing product so that I can modify its details, such as price, description, or stock quantity.
+- As an Admin, I want to delete a product from the inventory so that I can remove outdated or unavailable products from the catalog.
 
 ## Setup
 
