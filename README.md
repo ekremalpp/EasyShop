@@ -35,14 +35,19 @@ Instructions on how to set up and run the project using IntelliJ IDEA.
 
 Follow these steps to get your application running within IntelliJ IDEA:
 
-1. Open IntelliJ IDEA.
-2. Select "Open" and navigate to the directory where you cloned or downloaded the project.
-3. After the project opens, wait for IntelliJ to index the files and set up the project.
-4. Find the main class with the `public static void main(String[] args)` method.
-5. Right-click on the file and select 'Run 'YourMainClassName.main()'' to start the application.
+1. Clone the repository to your local machine.
+2. Open IntelliJ IDEA.
+3. Select "Open" and navigate to the directory where you cloned the project.
+4. After the project opens, wait for IntelliJ to index the files and set up the project.
+5. Locate the main class in the Spring Boot application.
+6. Run the application by right-clicking on the main class and selecting 'Run'.
+7. Access the REST API endpoints via http://localhost:8080.
 
 ## Technologies Used
-
+- Java: Version 11 or higher.
+- Spring Boot: For REST API development.
+- MySQL: For database management.
+- Maven: For dependency management.
 
 
 ## Demo
