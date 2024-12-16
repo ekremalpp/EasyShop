@@ -51,8 +51,8 @@ Follow these steps to get your application running within IntelliJ IDEA:
 
 
 ## Demo
-
-
+![Postman.JPG](imgs%2FPostman.JPG)
+![Webside.JPG](imgs%2FWebside.JPG)
 
 ## Future Work
 
