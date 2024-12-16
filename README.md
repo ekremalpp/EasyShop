@@ -29,6 +29,7 @@ Instructions on how to set up and run the project using IntelliJ IDEA.
 
 - IntelliJ IDEA: Ensure you have IntelliJ IDEA installed, which you can download from [here](https://www.jetbrains.com/idea/download/).
 - Java SDK: Make sure Java SDK is installed and configured in IntelliJ.
+- MySQL: Set up a MySQL database and import the schema for categories and products.
 
 ### Running the Application in IntelliJ
 
